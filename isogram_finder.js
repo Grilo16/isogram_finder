@@ -9,8 +9,3 @@ IsogramFinder.prototype.isIsogram = function () {
 }
 
 module.exports = IsogramFinder;
-
-const isogramFinder = new IsogramFinder('Uncopyrightable');
-const isogramFinder1 = new IsogramFinder('NotAnIsogram');
-isogramFinder.isIsogram()
-isogramFinder1.isIsogram()
